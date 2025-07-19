@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Announcements - TLUG</title>
+    <link rel="icon" type="image/png" href="assets/images/tlug_logo_fevi_icon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/announcements.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <meta name="description" content="Latest announcements from TLUG (TKIET Linux User Group) about events, workshops, and community news.">
+    <meta name="keywords" content="TLUG Announcements, Linux, Open Source, TKIET, News, Updates, Events">
+    <meta property="og:title" content="Announcements - TLUG">
+    <meta property="og:description" content="Stay updated with the latest announcements from TLUG, the Linux User Group at TKIET.">
+    <meta property="og:image" content="assets/images/tlug_logo.png">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tlug.org/announcements.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Announcements - TLUG">
+    <meta name="twitter:description" content="Stay updated with the latest announcements from TLUG, the Linux User Group at TKIET.">
+    <meta name="twitter:image" content="assets/images/tlug_logo.png">
+</head>
+<body data-scroll-container>
+    <header>
+        <nav role="navigation" aria-label="Main Navigation">
+            <div class="logo">
+                <img src="assets/images/tlug_logo.png" alt="TLUG Logo">
+            </div>
+            <button class="hamburger" aria-label="Open navigation menu" aria-controls="main-menu" aria-expanded="false">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <div class="nav-right-section" id="main-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="announcements.html">Announcements</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="members.html">Members</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+                <div class="auth-buttons">
+                    <a href="contact.html"><button class="request-demo">Contact Us</button></a>
+                    <button class="join-us">Join Us</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="announcements-section">
+            <h1>Announcements</h1>
+
+            <div class="announcement-search">
+                <i class="fas fa-search search-icon"></i>
+                <input type="text" class="search-input" placeholder="Search announcements...">
+            </div>
+
+            <div class="announcement-filters">
+                <button class="filter-btn active">All</button>
+                <button class="filter-btn">Events</button>
+                <button class="filter-btn">Workshops</button>
+                <button class="filter-btn">General</button>
+            </div>
+
+            <div class="announcements-grid">
+                <!-- Active Announcement -->
+                <div class="announcement-card">
+                    <div class="announcement-status status-active"></div>
+                    <div class="announcement-header">
+                        <h3 class="announcement-title">Linux Installation Workshop</h3>
+                        <span class="announcement-date">March 15, 2024</span>
+                    </div>
+                    <div class="announcement-content">
+                        <p>Join us for a hands-on workshop on Linux installation and basic system administration. Perfect for beginners!</p>
+                    </div>
+                    <div class="announcement-footer">
+                        <span class="announcement-category">Workshop</span>
+                        <span class="announcement-priority priority-high">High Priority</span>
+                    </div>
+                    <div class="announcement-actions">
+                        <button class="action-btn view-btn">
+                            <i class="fas fa-eye"></i>
+                            View Details
+                        </button>
+                        <button class="action-btn share-btn">
+                            <i class="fas fa-share-alt"></i>
+                            Share
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Upcoming Event -->
+                <div class="announcement-card">
+                    <div class="announcement-status status-active"></div>
+                    <div class="announcement-header">
+                        <h3 class="announcement-title">Open Source Day 2024</h3>
+                        <span class="announcement-date">April 1, 2024</span>
+                    </div>
+                    <div class="announcement-content">
+                        <p>Annual celebration of open source software with talks, workshops, and networking opportunities.</p>
+                    </div>
+                    <div class="announcement-footer">
+                        <span class="announcement-category">Event</span>
+                        <span class="announcement-priority priority-medium">Medium Priority</span>
+                    </div>
+                    <div class="announcement-actions">
+                        <button class="action-btn view-btn">
+                            <i class="fas fa-eye"></i>
+                            View Details
+                        </button>
+                        <button class="action-btn share-btn">
+                            <i class="fas fa-share-alt"></i>
+                            Share
+                        </button>
+                    </div>
+                </div>
+
+                <!-- General Announcement -->
+                <div class="announcement-card">
+                    <div class="announcement-status status-active"></div>
+                    <div class="announcement-header">
+                        <h3 class="announcement-title">New Member Orientation</h3>
+                        <span class="announcement-date">March 20, 2024</span>
+                    </div>
+                    <div class="announcement-content">
+                        <p>Welcome session for new members. Learn about TLUG's activities and how to get involved.</p>
+                    </div>
+                    <div class="announcement-footer">
+                        <span class="announcement-category">General</span>
+                        <span class="announcement-priority priority-low">Low Priority</span>
+                    </div>
+                    <div class="announcement-actions">
+                        <button class="action-btn view-btn">
+                            <i class="fas fa-eye"></i>
+                            View Details
+                        </button>
+                        <button class="action-btn share-btn">
+                            <i class="fas fa-share-alt"></i>
+                            Share
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Expired Announcement -->
+                <div class="announcement-card">
+                    <div class="announcement-status status-expired"></div>
+                    <div class="announcement-header">
+                        <h3 class="announcement-title">Linux Kernel Workshop</h3>
+                        <span class="announcement-date">February 28, 2024</span>
+                    </div>
+                    <div class="announcement-content">
+                        <p>Advanced workshop on Linux kernel internals and development. Limited seats available.</p>
+                    </div>
+                    <div class="announcement-footer">
+                        <span class="announcement-category">Workshop</span>
+                        <span class="announcement-priority priority-medium">Medium Priority</span>
+                    </div>
+                    <div class="announcement-actions">
+                        <button class="action-btn view-btn">
+                            <i class="fas fa-eye"></i>
+                            View Details
+                        </button>
+                        <button class="action-btn share-btn">
+                            <i class="fas fa-share-alt"></i>
+                            Share
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="announcement-pagination">
+                <button class="page-btn" disabled>
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="page-btn active">1</button>
+                <button class="page-btn">2</button>
+                <button class="page-btn">3</button>
+                <button class="page-btn">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>About TLUG</h3>
+                <p>TLUG is a community-driven initiative at TKIET dedicated to promoting Linux and open-source technologies. We foster learning, collaboration, and innovation among students and professionals.</p>
+                <div class="social-links">
+                    <a href="#" title="GitHub"><img src="assets/icons/github.svg" alt="GitHub"></a>
+                    <a href="#" title="LinkedIn"><img src="assets/icons/linkedin.svg" alt="LinkedIn"></a>
+                    <a href="#" title="Twitter"><img src="assets/icons/twitter.svg" alt="Twitter"></a>
+                    <a href="#" title="Instagram"><img src="assets/icons/instagram.svg" alt="Instagram"></a>
+                    <a href="#" title="Discord"><img src="assets/icons/discord.svg" alt="Discord"></a>
+                </div>
+            </div>
+
+            <div class="footer-section quick-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="events.html">Upcoming Events</a></li>
+                    <li><a href="announcements.html">Latest News</a></li>
+                    <li><a href="gallery.html">Photo Gallery</a></li>
+                    <li><a href="members.html">Our Members</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section resources">
+                <h3>Resources</h3>
+                <ul>
+                    <li><a href="#">Linux Tutorials</a></li>
+                    <li><a href="#">Open Source Projects</a></li>
+                    <li><a href="#">Learning Materials</a></li>
+                    <li><a href="#">Workshop Resources</a></li>
+                    <li><a href="#">Community Guidelines</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section contact">
+                <h3>Contact Us</h3>
+                <div class="contact-info">
+                    <p><i class="icon-location"></i>TKIET, Warananagar, Maharashtra</p>
+                    <p><i class="icon-phone"></i>+91 1234567890</p>
+                    <p><i class="icon-email"></i>contact@tlug.org</p>
+                    <p><i class="icon-time"></i>Mon-Fri: 9:00 AM - 5:00 PM</p>
+                </div>
+                <div class="newsletter">
+                    <h4>Subscribe to Newsletter</h4>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter your email">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="footer-bottom-content">
+                <div class="copyright">
+                    <p>&copy; 2025 TLUG (TKIET LINUX USER GROUP). All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html> 
