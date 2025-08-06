@@ -1,4 +1,5 @@
 // JavaScript will go here 
+alert("Website Under Maintenance! We're currently working on some improvements. Please check back shortly. Thank you for your patience!");
 
 // Gallery Functionality
 document.addEventListener('DOMContentLoaded', function() {

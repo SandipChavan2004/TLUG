@@ -10,65 +10,136 @@ document.addEventListener('DOMContentLoaded', function() {
     const galleryEvents = [
         {
             id: 'linux-workshop-2024',
-            category: 'events',
-            title: 'Linux Workshop 2024',
-            date: '2024-12-15',
+            category: 'workshop',
+            title: 'Exploring The World of Linux',
+            date: '09-10-2024',
             description: 'Annual Linux workshop for beginners covering basic commands, file management.',
-            location: 'TKIET Computer Lab',
+            location: 'TKIET Seminar Hall',
             organizer: 'TLUG Team',
-            mainImage: 'assets/gallery/1.jpeg',
+            mainImage: 'assets/gallery/ETLW/ETLW (12).jpg',
             images: [
                 {
-                    src: 'assets/gallery/1.jpeg',
-                    alt: 'Git Basics Introduction',
-                    description: 'Introduction to version control concepts'
+                    src: 'assets/gallery/ETLW/ETLW (1).jpg',
+                    alt: 'Exploring The World of Linux',
+                    description: 'Annual Linux workshop for beginners covering basic commands, file management.'
                 },
                 {
-                    src: 'assets/gallery/2.jpeg',
-                    alt: 'Git Basics Introduction',
-                    description: 'Introduction to version control concepts'
+                    src: 'assets/gallery/ETLW/ETLW (2).jpg',
+                    alt: 'Exploring The World of Linux',
+                    description: 'Annual Linux workshop for beginners covering basic commands, file management.'
                 },
                 {
-                    src: 'assets/gallery/3.jpeg',
-                    alt: 'Git Basics Introduction',
-                    description: 'Introduction to version control concepts'
+                    src: 'assets/gallery/ETLW/ETLW (3).jpg',
+                    alt: 'Exploring The World of Linux',
+                    description: 'Annual Linux workshop for beginners covering basic commands, file management.'
                 },
                 {
-                    src: 'assets/gallery/4.jpeg',
-                    alt: 'Git Basics Introduction',
-                    description: 'Introduction to version control concepts'
-                }
+                    src: 'assets/gallery/ETLW/ETLW (4).jpg',
+                    alt: 'Exploring The World of Linux',
+                    description: 'Annual Linux workshop for beginners covering basic commands, file management.'
+                },
+                {
+                    src: 'assets/gallery/ETLW/ETLW (5).jpg',
+                    alt: 'Exploring The World of Linux',
+                    description: 'Annual Linux workshop for beginners covering basic commands, file management.'
+                },
+                {
+                    src: 'assets/gallery/ETLW/ETLW (6).jpg',
+                    alt: 'Exploring The World of Linux',
+                    description: 'Annual Linux workshop for beginners covering basic commands, file management.'
+                },
+                {
+                    src: 'assets/gallery/ETLW/ETLW (7).jpg',
+                    alt: 'Exploring The World of Linux',
+                    description: 'Annual Linux workshop for beginners covering basic commands, file management.'
+                },
+                {
+                    src: 'assets/gallery/ETLW/ETLW (8).jpg',
+                    alt: 'Exploring The World of Linux',
+                    description: 'Annual Linux workshop for beginners covering basic commands, file management.'
+                },
+                {
+                    src: 'assets/gallery/ETLW/ETLW (9).jpg',
+                    alt: 'Exploring The World of Linux',
+                    description: 'Annual Linux workshop for beginners covering basic commands, file management.'
+                },
+                {
+                    src: 'assets/gallery/ETLW/ETLW (10).jpg',
+                    alt: 'Exploring The World of Linux',
+                    description: 'Annual Linux workshop for beginners covering basic commands, file management.'
+                },
+                {
+                    src: 'assets/gallery/ETLW/ETLW (11).jpg',
+                    alt: 'Exploring The World of Linux',
+                    description: 'Annual Linux workshop for beginners covering basic commands, file management.'
+                },
+                {
+                    src: 'assets/gallery/ETLW/ETLW (13).jpg',
+                    alt: 'Exploring The World of Linux',
+                    description: 'Annual Linux workshop for beginners covering basic commands, file management.'
+                },
+                {
+                    src: 'assets/gallery/ETLW/ETLW (14).jpg',
+                    alt: 'Exploring The World of Linux',
+                    description: 'Annual Linux workshop for beginners covering basic commands, file management.'
+                },
+                
             ]
         },
         {
-            id: 'git-workshop-2024',
+            id: 'git-workshop-2025',
             category: 'workshops',
-            title: 'Git Workshop',
-            date: '2024-11-20',
+            title: 'Git and Github Workshop',
+            date: '07-02-2025',
             description: 'Comprehensive workshop on version control fundamentals using Git and GitHub.',
-            location: 'TKIET Seminar Hall',
+            location: 'TKIET (CSE DEPT.) CRCS-02',
             organizer: 'TLUG Development Team',
-            mainImage: 'assets/gallery/5.jpeg',
+            mainImage: 'assets/gallery/GITHUB/GH.jpg',
             images: [
                 {
-                    src: 'assets/gallery/5.jpeg',
+                    src: 'assets/gallery/GITHUB/GH (1).jpg',
                     alt: 'Git Basics Introduction',
                     description: 'Introduction to version control concepts'
                 },
                 {
-                    src: 'assets/gallery/6.jpeg',
-                    alt: 'Repository Setup',
-                    description: 'Students setting up their first Git repository'
+                    src: 'assets/gallery/GITHUB/GH (2).jpg',
+                    alt: 'Git Basics Introduction',
+                    description: 'Introduction to version control concepts'
                 },
                 {
-                    src: 'assets/gallery/7.jpeg',
-                    alt: 'Collaborative Coding',
-                    description: 'Team collaboration using Git branches'
+                    src: 'assets/gallery/GITHUB/GH (3).jpg',
+                    alt: 'Git Basics Introduction',
+                    description: 'Introduction to version control concepts'
                 },
                 {
-                    src: 'assets/gallery/8.jpeg',
-                    alt: 'Workshop Completion',
-                    description: 'Participants with their Git certificates'
+                    src: 'assets/gallery/GITHUB/GH (4).jpg',
+                    alt: 'Git Basics Introduction',
+                    description: 'Introduction to version control concepts'
+                },
+                {
+                    src: 'assets/gallery/GITHUB/GH (5).jpg',
+                    alt: 'Git Basics Introduction',
+                    description: 'Introduction to version control concepts'
+                },
+                {
+                    src: 'assets/gallery/GITHUB/GH (6).jpg',
+                    alt: 'Git Basics Introduction',
+                    description: 'Introduction to version control concepts'
+                },
+                {
+                    src: 'assets/gallery/GITHUB/GH (7).jpg',
+                    alt: 'Git Basics Introduction',
+                    description: 'Introduction to version control concepts'
+                },
+                {
+                    src: 'assets/gallery/GITHUB/GH (8).jpg',
+                    alt: 'Git Basics Introduction',
+                    description: 'Introduction to version control concepts'
+                },
+                {
+                    src: 'assets/gallery/GITHUB/GH (9).jpg',
+                    alt: 'Git Basics Introduction',
+                    description: 'Introduction to version control concepts'
                 }
             ]
         }
